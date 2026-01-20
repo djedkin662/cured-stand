@@ -3,7 +3,8 @@ local BlackScreen = true
 local DisableRendering = true
 local FPSCap = 60
 local Guns = {"rifle", "aug", "flintlock", "flamethrower"}
-
+local premiumUsers = {}
+local bypassPremiumUsers = {}
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 local player = game.Players.LocalPlayer
